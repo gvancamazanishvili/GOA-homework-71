@@ -1,0 +1,65 @@
+<!-- 5) შექმენით ფორმა, რომლის საშუალებითაც მომხმარებელი ტაქსის გამოიძახებს. ფორმა ასეთი ტიპის უნდა იყოს:
+
+მომხმარებელს უნდა შეეძლოს თავისი სახელისა და გვარის მითითება, ასევე მობილურის ნომერის შეყვანა. საიტზე ასევე დაამატეთ Input-ის ველი, სადაც მომხმარებელმა უნდა შემოიტანოს ის მისამართი, სადაც სურს წასვლა და დრო - თუ რომელი საათისთვის სურს ტაქსის შეკვეთა. 
+ფორმის ბოლოს დაამატეთ ერთი ტექსტური ველი, სადაც User-ი დაწერს შეფასებას ანუ reviews.
+
+(ფორმაში თქვენი ფანტაზიით დაამატეთ განსხვავებული Input-ის ტიპები. მაგ. checkbox, radio...) -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">name: </label>
+    <input type="text" name="name" id="name" placeholder="name" required>
+    <br><br>
+
+    <label for="last name">last name: </label>
+    <input type="text" name="last name" id="last name" placeholder="last name" required>
+    <br><br>
+
+    <label for="number">number: </label>
+    <input type="tel" name="number" id="number" placeholder="number" required>
+    <br><br>
+
+    <label for="adress">adress: </label>
+    <input type="text" name="adress" id="adress" placeholder="adress" required>
+    <br><br>
+
+    <label for="destination">destination</label>
+    <input type="text" name="destination" id="destination" placeholder="destination" required>
+    <br><br>
+
+
+    <label for="review">review: </label>
+    <label for="review">how did you liked our experience: </label>
+    <br><br>
+    <label for="5 stars"> 5 star</label>
+    <input type="radio" name="stars" id="stars">
+    <br><br>
+    <label for="4 stars"> 4 star</label>
+    <input type="radio" name="stars" id="stars">
+    <br><br>
+    <label for="3 stars"> 3 star</label>
+    <input type="radio" name="stars" id="stars">
+    <br><br>
+    <label for="2 stars"> 2 star</label>
+    <input type="radio" name="stars" id="stars">
+    <br><br>
+    <label for="1 stars">1 star</label>
+    <input type="radio" name="stars" id="stars">
+    <br><br>
+
+    <label for="review">leave a comment how did you liked:</label>
+    <br><br>
+    <textarea name="text" id="review" placeholder="review"></textarea>
+    <br><br>
+    <input type="submit" name="" id="">
+
+</html>
