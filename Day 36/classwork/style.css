@@ -1,0 +1,32 @@
+h2{
+    color: #E69DB8;
+    text-align: center;
+    border-color: #58293a;
+    border-width: 2px;
+    font-style: italic;
+    
+}
+
+img{
+    width: 300px;
+    border-radius: 20px;
+    border-color: #58293a;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+p{
+    color: #58293a;
+    text-align: left;
+    font-style: bold;
+    padding-right: 300px;
+    
+}
+
+h3{
+    background-color: #eecdd9;
+    font-style: italic;
+    font-style: bold;
+    color:#58293a
+}
