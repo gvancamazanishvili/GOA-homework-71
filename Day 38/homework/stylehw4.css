@@ -1,0 +1,17 @@
+.button123{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+}
+
+
+.button45{
+    background-color: rgb(103, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1px;
+    border-style: double;
+    border-color: blue;
+
+}

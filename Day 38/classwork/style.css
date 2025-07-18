@@ -1,0 +1,40 @@
+.red{
+    border-width: 150px;
+    color: red;
+    border-style: solid;
+}
+
+.purple{
+    border-width: 200px;
+    color: purple;
+    border-style: double;
+}
+
+div{
+    text-align: center;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    columns: green;
+}
+
+#blue{
+    border-radius: 5px;
+    border-color: blue;
+    border-style: solid;
+    counter-reset: purple;
+    text-align: center;
+
+}
+
+#purple{
+    text-align: center;
+    border-radius: 5px;
+    border-style: double;
+    border-color: red;
+    
+}

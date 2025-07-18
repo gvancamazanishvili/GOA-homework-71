@@ -1,0 +1,28 @@
+#art1{
+    border-radius: 2px;
+    border-color: darkred;
+    border-style: solid;
+    width: 100px;
+}
+
+
+#art2{
+    width: 150px;
+    border-color: blue;
+    border-radius: 3px;
+    border-style: dashed;
+}
+
+#art3{
+    width: 200px;
+    border-color: purple;
+    border-radius: 4px;
+    border-style: dotted;
+}
+
+#art4{
+    width: 250px;
+    border-color: green;
+    border-radius: 2px;
+    border-style: double;
+}
