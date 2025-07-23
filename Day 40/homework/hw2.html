@@ -1,0 +1,23 @@
+<!-- 2) ჩათვალეთ რომ საიტზე დამატებული გაქვთ ერთი პარაგრაფი. მას ჯერ Class Selector-ის საშუალებით გაუწერეთ text-align: left, შემდეგ ID selector-ის გამოყენებით text-align: center და border: 1px solid blue. ასევე, Element Selector-ით Background-color: black გაუწერეთ, ბოლოს კი inline CSS-ის საშუალებით color: red და text-align: center მიანიჭეთ. რა იქნება ამ პარაგრაფის საბოლოო სტილი და რატომ? პასუხი დეტალურად ახსენით. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylehw2.css">
+</head>
+<body>
+    
+
+    <p class="GOA" id="text" style="color: red; text-align: center;">I LOVE GOA</p>
+
+
+
+    <!-- ამ პარაგრაფის საბოლოოო სახე იქნება: შავი უკანა ფონი, ლურჯი ბორდედრი და ტექსტი წითელი გაცენტრული.
+    შავი უკანა ფონი იმიტომ ექნებოდა რადგან არც ერთ ტიპის სელექტორში გარდა ელემენტის სელექტპრისა არ ეწერა არც ერთში. ლურჯი ბორდედრიც ამიტომ დარჩა რადგან სხვა ტიპის სელექტორში არ გვქონდა. ტექსტი იმიტომ გაიცენტრა და არა მარცხნივ და ტექსტი იყო წითლი რადგან, inline css-ი არის პრიორიტეტული.  -->
+</body>
+</html>

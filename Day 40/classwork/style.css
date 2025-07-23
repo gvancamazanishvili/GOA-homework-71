@@ -1,0 +1,38 @@
+.red_doll{
+    color: rgb(255, 0, 0);
+    border-width: 200px;
+    border-style: double;
+}
+
+
+#purple_doll{
+    color: #ff00ff;
+    border-width: 150px;
+    border-style: solid;
+}
+
+.skyblue{
+    color: #0066ff
+}
+
+.orange{
+    color: rgb(225,115,0);
+}
+
+p{
+    text-align: center;
+}
+.text{
+    border-style: dotted;
+    color: purple;
+    border-color: blue;
+    border-width: 2px;
+}
+
+
+.green_button{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    color: blanchedalmond;
+}

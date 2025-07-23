@@ -1,0 +1,14 @@
+.GOA{
+    text-align: left;
+}
+
+#text{
+    text-align: center;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+p{
+    background-color: black;
+}
