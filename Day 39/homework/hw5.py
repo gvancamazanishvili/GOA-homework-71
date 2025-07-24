@@ -8,7 +8,7 @@ if my_name.lower() == name.lower():
     print("Our names are similar!")
 elif my_name.upper() == name.upper():
     print("Our names are similar!")
-elif my_name.capitalize == name.capitalize:
+elif my_name.capitalize == name.capitalize():
     print("Our names are similar!")
 else:
     print("We have different names")
