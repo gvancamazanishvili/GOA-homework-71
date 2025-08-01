@@ -1,0 +1,39 @@
+p{
+    text-decoration: purple line-through dashed;
+}
+
+em{
+    text-decoration: dotted overline red;
+}
+
+strong{
+    text-decoration: double underline greenyellow;
+}
+
+h1{
+    text-decoration: solid brown;
+    text-shadow: -3px 6px 10px;
+}
+
+h2{
+    text-decoration: capitalize red wavy ;
+    text-transform: capitalize;
+}
+
+h3{
+    text-decoration: solid underline cyan ;
+}
+
+h4{
+    text-decoration: double maroon;
+    text-shadow: -10px 3px 3px;
+}
+
+h5{
+    text-transform:uppercase   ;
+    text-decoration:  rgb(0, 255, 0) dotted line-through ;
+}
+
+h6{
+    text-decoration: underline wavy rgb(0, 255, 255);
+}

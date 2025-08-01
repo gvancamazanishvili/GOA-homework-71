@@ -1,0 +1,19 @@
+#hello-1{
+    text-decoration: underline dotted;
+}
+
+#hello-2{
+    text-decoration: overline dashed;
+}
+
+#hello-3{
+    text-decoration: line-through wavy;
+}
+
+#hello-4{
+    text-decoration: underline double;
+}
+
+#hello-5{
+    text-decoration: underline solid;
+}

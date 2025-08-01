@@ -1,0 +1,11 @@
+#hello-1{
+    text-decoration: underline red;
+}
+
+#hello-2{
+    text-decoration: overline wavy blue;
+}
+
+#hello-3{
+    text-decoration: line-through dashed ;
+}
