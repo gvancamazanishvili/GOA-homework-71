@@ -2,5 +2,7 @@
 
 
 def double_values (list):
-    return [x * 2 for x in list] 
-
+    new_list = []
+    for i in list:
+        new_list.append(i * 2)
+    return(new_list)

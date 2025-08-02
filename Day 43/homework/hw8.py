@@ -1,4 +1,7 @@
 # 8) შექმენით ფუნქცია და გადაეცით არგუმენტად სია. ფუნქციამ უნდა დააბრუნოს ახალი სია, რომლის თითოეული ელემენტიც უნდა იყოს კვადრატში აყვანილი.
 
 def square(list):
-    return(x ** 2 for x in list)
+    new_list = []
+    for i in list:
+        new_list.append(i ** 2)
+    return(new_list)
