@@ -1,0 +1,1 @@
+# 1) Sololearn | More on Custom Functions (ბოლომდე გაიარეთ, ვისაც არ გაგივლიათ)
