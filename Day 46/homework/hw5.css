@@ -1,0 +1,21 @@
+nav{
+    text-decoration: none;
+    color: red;
+}
+
+.links:hover{
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.links:visited{
+    color: yellow;
+    font-size: 16px;
+}
+
+.links:active{
+    color: blueviolet;
+    font-size: 10px;
+}
+

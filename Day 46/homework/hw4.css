@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+body{
+    background-color: #9d0512;
+}
+
+#logo{
+    width: 10%;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+h2{
+    font-family: Mozilla Headline;
+    text-align: left;
+    font-size: 1000%;
+}
+
+.cars{
+    width: 30%;
+}
+
+
+#p-2{
+    font-family: Mozilla Headline;
+    font-weight: 600px;
+}
+#p-1{
+    font-family: Mozilla Headline;
+    font-weight: 500;
+}
