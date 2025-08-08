@@ -1,0 +1,1 @@
+# 1) Sololearn | გაიარეთ ფუნქციები ბოლომდე და აიღეთ Introduction To Python-ის სერთიფიკატი
