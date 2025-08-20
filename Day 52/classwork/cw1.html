@@ -1,0 +1,31 @@
+<!-- 1) შექმენით Form. მასში დაამატეთ label/input ლემენტები და მომხმარებელს შემოატანინეთ შემდეგი ინფორმაცია:
+• სახელი და გვარი (ერთად)
+• საცხოვრებელი ქალაქი
+• პირადი ნომერი.
+
+მაუსის გადატარებისას Input ველებს შეუცვალეთ Backgorund-ის ფერი და დააყენეთ იგი ლურჯ ფერზე. active მდგომარეობისას კი მათ შრიფტის ზომა უნდა გაუზარდოთ. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cw1.css">
+</head>
+<body>
+    <form>
+        <label for="namesurname">Enter your name and surname: </label>
+        <input type="text" name="namesurname" id="namesurname" placeholder="Name and Surnamme">
+        <br><br>
+        <label for="city">Enter your City: </label>
+        <input type="text" name="city" id="city" placeholder="City">
+        <br><br>
+        <label for="id">Enter your ID number: </label>
+        <input type="text" name="id" id="id" placeholder="ID" maxlength="11">
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

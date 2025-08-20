@@ -1,0 +1,30 @@
+<!-- 4) შექმენით Form. მასში დაამატეთ label/input ელემენტები და მომხმარებელს შემოატანინეთ შემდეგი ინფორმაცია:
+
+• Username;
+• Password;
+• Repeat Password.
+
+ჩამოთვლილთაგან თითოეულ Input-ს გაუწერეთ required ატრიბუტი. ამასათანავე, მაუსის გადატარებისას Input ველებს შეუცვალეთ Backgorund-ის ფერი (ლურჯი), label-ებს კი შრიფტის ფერი (წითელი) და ზომა (18px). active მდგომარეობისას Input ველებს text-shadow გაუწერეთ. მთლიან ფორმას მიანიჭეთ ღია ცისფერი Background-ის ფერი.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hw4.css">
+</head>
+<body>
+    <form>
+        <label for="Username">Enter your Username: </label>
+        <input type="text" name="Username" id="Username" required placeholder="Username">
+        <br><br>
+        <label for="Password">Enter your password: </label>
+        <input type="password" name="password" id="Password" required placeholder="Password">
+        <br><br>
+        <label for="Repeat">Repeat Password: </label>
+        <input type="password" name="password" id="Password"  required placeholder="Repeat Password">
+    </form>
+</body>
+</html>

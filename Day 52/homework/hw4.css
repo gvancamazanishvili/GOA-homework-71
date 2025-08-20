@@ -1,0 +1,13 @@
+input:hover{
+    background-color: navy;
+}
+
+label:hover{
+    color: rgb(124, 0, 0);
+    font-size: 18px;
+}
+
+input:active{
+    text-shadow: 5px 10px  6px;
+    background-color: rgb(131, 141, 255);
+}

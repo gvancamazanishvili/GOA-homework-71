@@ -1,0 +1,56 @@
+body{
+    background-color: #78a4dc;
+}
+
+
+form{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+}
+
+.top-2{
+    width: 90px;
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+}
+
+
+label{
+    color: rgb(120, 120, 120);
+}
+
+button{
+    color:white;
+    background-color: #2861d4 ;
+    border: none;
+    width: 340px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 2px;
+    align-items: center;
+}
+
+#gender{
+    background-color: #cdf0ec;
+    width: 150px;
+    height: 35px;
+    border-radius: 200px;
+    border: 1px solid #78a4dc;
+    align-items: center;
+
+}
+
+.bottom-2{
+    width: 90%;
+}

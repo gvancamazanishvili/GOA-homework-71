@@ -1,0 +1,69 @@
+body{
+    background-color: #2d3134;
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20%;
+}
+
+h3{
+    background-color: #414440;
+    width: 90%;
+    text-align: center;
+    color: white;
+    height: 7%;
+}
+
+
+form{
+    background-color: #202427;
+    width: 280px;
+    height: 600px;
+    padding-left: 5%;
+
+}
+
+label{
+    color: white;
+}
+
+input{
+    background-color: #414440;
+    border-style:inset;
+    border-width: 2px;
+    border-color: #636566;
+    color: white;
+}
+
+p{
+    color: white;
+    
+}
+
+
+#p-2{
+    padding-left: 35px;
+}
+#sign-up{
+    background-color: #28a2d0;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15x ;
+    width: 90px;
+    height: 25px;
+}
+
+#sign-in{
+    width: 90%;
+    background-color: #545761 ;
+    border: 2px inset;
+    
+}
+
+
+
+
