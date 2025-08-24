@@ -10,3 +10,4 @@ def define_suit(card):
         return 'hearts'
     elif card[-1] == 'C':
         return 'clubs'
+        

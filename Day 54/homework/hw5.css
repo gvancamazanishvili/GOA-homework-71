@@ -1,0 +1,20 @@
+p{
+    text-align: center;
+    margin-top: 55px;
+}
+
+h1{
+    margin-bottom: 250px;
+}
+
+img{
+    border: 3px double red;
+}
+
+#img-1{
+    padding: 10px;
+}
+
+#img-2{
+    padding: 20px;
+}

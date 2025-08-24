@@ -2,6 +2,7 @@ input:hover{
     background-color: rgb(3, 3, 90);
 }
 
+
 input:active{
     font-weight: 600px;
 }
