@@ -1,0 +1,15 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 3px solid #16100e;
+    background-color: #544844;
+    width: 700px;
+    height: 700px;
+}
+
+img{
+    width: 300px;
+    
+}

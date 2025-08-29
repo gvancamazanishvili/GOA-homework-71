@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #00002c;
+    width:  700px;
+    height: 700px;
+
+
+}
+
+
+.items{
+    
+    border: 3px solid #373e52;
+    background-color: #5d688a;
+    width: 200px;
+    height: 200px;
+    
+    
+}

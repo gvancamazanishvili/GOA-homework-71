@@ -1,0 +1,20 @@
+div{
+    gap: 5px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    border: 2px solid rgb(61, 0, 65);
+    width: 350px;
+    height: 600px;
+}
+
+
+
+p{
+    display: inline;
+    border: 3px solid #0d1164;
+    background-color: #282eb0;
+    color: rgb(133, 123, 241);
+    
+}
+
