@@ -1,0 +1,14 @@
+#container{
+    width: 700px;
+    height: 700px;
+    border: 3px solid rgb(0, 0, 97);
+    display: flex;
+    
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(49, 0, 92);
+    flex-grow: 1;
+}
