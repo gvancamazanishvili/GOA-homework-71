@@ -1,0 +1,44 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+.small{
+    width: 290px;
+    height: 300px;
+    background-color: #99cf1c;
+    
+    flex-shrink: 2;
+    flex-direction: row;
+    border: 5px solid black;
+
+}
+
+.medium{
+    width: 400px;
+    height: 300px;
+    background-color: #99cf1c;
+    
+    flex-shrink: 3 ;
+    border: 5px solid black;
+    flex-direction: row;
+
+
+}
+
+.big{
+    width: 800px;
+    height: 300px;
+
+    background-color: #99cf1c;
+    flex-grow: 10;
+    border: 5px solid black;
+    flex-direction: row;
+    
+
+
+}
