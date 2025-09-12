@@ -1,0 +1,31 @@
+body{
+    background-color: #F08787;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#parent{
+    width: 400px;
+    height: 800px;
+    border: #ffe6c5;
+}
+
+img{
+    width: 500px;
+    border: 3px solid #FFC7A7;
+    border-radius: 10px;
+}
+
+img:hover{
+    width: 600px;
+    border: 5px solid #9e5f5f;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1{
+    color: #aa7171;
+    font-size: 300px;
+}

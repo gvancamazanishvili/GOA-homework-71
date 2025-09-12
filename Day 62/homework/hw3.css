@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container{
+    width: 800px;
+    height: 600px;
+    background-color: #5D688A;
+    border: 3px solid #2b3248;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border:  5px solid #F7A5A5;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border:  5px solid #F7A5A5;
+
+}
+
+img:hover{
+    border-radius: 10px;
+    border:  5px solid #FFDBB6;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
