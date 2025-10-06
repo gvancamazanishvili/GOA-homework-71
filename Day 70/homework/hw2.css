@@ -1,0 +1,33 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(109, 112, 114);
+    position: relative;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#child1{
+    background-color: rgb(43, 6, 6);
+
+}
+
+#child2{
+    background-color: rgb(10, 10, 54);
+    right: 0px;
+}
+
+#child3{
+    background-color: rgb(5, 57, 5);
+    bottom: 0px;
+}
+
+#child4{
+    background-color: rgb(74, 74, 7);
+    bottom: 0px;
+    right: 0px;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.items{
+    position: relative;
+}
+
+
+#blue-curcle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(92, 119, 141);
+}
+
+#line-1{
+    width: 2px;
+    height: 500px;
+    background-color: white;
+    right: 170px;
+}
+
+#line-2{
+    width: 500px;
+    height: 2px;
+    background-color: white;
+    right: 400px;
+    top: 50px;
+}

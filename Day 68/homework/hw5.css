@@ -1,0 +1,32 @@
+#parent{
+    width: 300px;
+    height: 300px;
+    background-color: #13141f;
+    position: relative;
+}
+
+
+#child-1{
+    width: 150px;
+    height: 150px;
+    background-color: #4b4e6c;
+    position: absolute;
+}
+
+#child-2{
+    width: 150px;
+    height: 150px;
+    background-color: #717389;
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+#child-3{
+    width: 150px;
+    height: 150px;
+    background-color: #4b51a4;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}

@@ -1,0 +1,41 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img{
+    width: 300px;
+    position:absolute;
+    top: 300px;
+}
+
+.black{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+
+#box1{
+    top: 450px;
+    left: 300px;
+}
+
+
+#box2{
+    top: 150px;
+}
+
+#box3{
+    top: 150px;
+}
+
+#box4{
+    top: 450px;
+    right: 330px;
+}
