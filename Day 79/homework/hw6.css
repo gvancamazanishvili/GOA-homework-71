@@ -1,0 +1,102 @@
+/* all elements */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #070e0c;
+    position: sticky;
+    top: 0px;
+}
+
+#ul-nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    padding-top: 3%;
+    margin-right: 5%;
+
+    list-style: none;
+}
+
+#ul-nav a{
+    text-decoration:none;
+    color: #91da98;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#ul-nav a:hover{
+    text-decoration: underline rgba(226, 255, 229, 0.457);
+}
+
+
+/* End of header */
+
+body{
+    background-image: url(icon\ GOA.png);
+    background-size: cover;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+}
+
+/* start of main */
+main div{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid #91da98;
+    color: #91da98;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+
+/* End of main */
+
+
+/* start of footer */
+
+footer{
+    background-color: #070e0c;
+    width: 100%;
+    height: 300px;
+    
+}
+.ul-footer{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    padding-top: 3%;
+    margin-right: 5%;
+    list-style: none;
+    position: relative;
+    font-size: 20px;
+}
+
+.ul-footer a{
+    text-decoration:none;
+    color: #91da98;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.ul-footer a:hover{
+    text-decoration: underline rgba(226, 255, 229, 0.457);
+}
+
+#ul-footer-2{
+    position: absolute;
+    left: 0px;
+}

@@ -1,0 +1,12 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+img:active{
+    transform: rotate(-90deg) translate(-150px 180px);
+    width: 400px;
+    height: 400px;
+
+
+}
