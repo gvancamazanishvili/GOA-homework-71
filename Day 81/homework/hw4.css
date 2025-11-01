@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+}
+
+
+#button-1{
+    background-color: rgb(255, 179, 179);
+}
+
+
+#button-1:hover{
+    transform: scale(0.9) translate(-160px, -20px);
+}
+
+
+#button-2{
+    background-color: rgb(204, 204, 255);
+}
+
+#button-2:active{
+    transform: scale(1.5) translate(150px, -45px );
+    
+}

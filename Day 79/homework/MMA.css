@@ -11,7 +11,7 @@
 header{
     width: 100%;
     height: 120px;
-    background-color: #070e0c;
+    background-color: #300203;
     position: sticky;
     top: 0px;
 }
@@ -29,7 +29,7 @@ header{
 
 #ul-nav a{
     text-decoration:none;
-    color: #91da98;
+    color: #d12224;
     font-weight: 700;
     padding: 20px;
 }
@@ -42,7 +42,7 @@ header{
 /* End of header */
 
 body{
-    background-image: url(icon\ GOA.png);
+    background-image: url(MMA.png);
     background-size: cover;
     opacity: 0.9;
     background-repeat: no-repeat;
@@ -52,10 +52,10 @@ body{
 main div{
     width: 500px;
     height: 400px;
-    background-color: black;
+    background-color: #5a0304;
     border-radius: 10px;
-    border: 2px solid #91da98;
-    color: #91da98;
+    border: 2px solid #d12224;
+    color: #d12224;
     padding: 30px;
     margin-top: 20px;
     font-size: 22px;
@@ -68,10 +68,11 @@ main div{
 /* start of footer */
 
 footer{
-    background-color: #070e0c;
+    background-color: #300203;
     width: 100%;
     height: 300px;
     margin-top: 20px;
+    
 }
 .ul-footer{
     display: flex;
@@ -87,13 +88,13 @@ footer{
 
 .ul-footer a{
     text-decoration:none;
-    color: #91da98;
+    color: #d12224;
     font-weight: 700;
     padding: 20px;
 }
 
 .ul-footer a:hover{
-    text-decoration: underline rgba(226, 255, 229, 0.457);
+    text-decoration: underline rgba(255, 233, 233, 0.374);
 }
 
 #ul-footer-2{
