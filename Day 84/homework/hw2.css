@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+div{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(56, 3, 3);
+    transition: transform 3s, background-color 3s;
+}
+
+div:active{
+    background-color: rgb(59, 1, 59);
+    transform: translate(-100px);
+}

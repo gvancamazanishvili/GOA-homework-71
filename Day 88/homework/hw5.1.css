@@ -1,0 +1,39 @@
+body{
+    background-color: #3f69e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #dfb884;
+    animation: circle 2s linear infinite;
+}
+
+@keyframes circle{
+    0%{
+        transform: translate(0px);
+    }
+
+    25%{
+        transform: translateX(25px) translateY(25px);
+    }
+
+    50%{
+        transform: translateX(0px) translateY(50px);
+    }
+
+    75%{
+        transform: translateX(-25px) translateY( 50px);
+    }
+
+    100%{
+        transform: translate(0px);
+        
+    }
+}

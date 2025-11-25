@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #406ae3;
+    min-height: 100vh;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 20px;
+}
+
+
+#red{
+    animation-name: red-ball;
+    background-color: rgb(193, 22, 55);
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+}
+
+@keyframes red-ball{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(100px);
+    }
+
+    100%{
+        transform: translateY(0px);
+        
+    }
+}
+
+#blue{
+    animation-name: blue-ball;
+    background-color: #21ddeb;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+
+@keyframes blue-ball{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(100px);
+        
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#yellow{
+    animation-name:  yellow-ball;
+    background: #f8c40e;
+    animation-duration: 2.5s;
+    animation-delay: 4s;
+}
+
+@keyframes yellow-ball{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(100px);
+    }
+
+    100%{
+        transform: translateY(0px);
+        
+    }
+}

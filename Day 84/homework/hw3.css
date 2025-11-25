@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(7, 7, 78) ;
+    transition: transform 1s, rotate 3s, background-color 2s;
+}
+
+div:active{
+    transform: translate(0, 200px) rotate(120deg) ;
+    background-color: rgb(140, 58, 0);
+}

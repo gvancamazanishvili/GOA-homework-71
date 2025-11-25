@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: #406ae3;
+    min-height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #e0b986;
+    animation-name: move-to-right;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+}
+
+
+
+@keyframes move-to-right{
+    from{
+        transform: translate(0px);
+    }
+
+
+    to{
+        transform: translate(500px);
+    }
+
+}

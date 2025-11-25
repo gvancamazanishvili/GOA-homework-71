@@ -1,0 +1,50 @@
+body{
+    background-color: #3f69e1;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    min-height: 100vh;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #dfb884;
+    animation: zig-zag 2s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+    @keyframes zig-zag {
+    
+    0% {
+        transform: translateY(0px) translateX(0px);
+    }
+    12.5% {
+        transform: translateY(100px) translateX(100px);
+    }
+    25% {
+        transform: translateY(50px) translateX(200px);
+    }
+    37.5% {
+        transform: translateY(300px) translateX(300px);
+    }
+    50% {
+        transform: translateY(100px) translateX(400px);
+    }
+    62.5% {
+        transform: translateY(300px) translateX(600px);
+    }
+    75% {
+        transform: translateY(150px) translateX(600px);
+    }
+    87.5% {
+        transform: translateY(250px) translateX(700px);
+    }
+    100% {
+        transform: translateY(200px) translateX(800px);
+        
+    }
+}
+

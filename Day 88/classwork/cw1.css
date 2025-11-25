@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+#parent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+@keyframes fade-and-spin {
+    0% {
+        opacity: 1;
+        background-color: white; 
+    }
+    50% {
+        opacity: 0.25;
+        background-color: #555; 
+    }
+
+    100%{
+        pacity: 1;
+        background-color: white;
+    }
+}
+
+.balls {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    animation: fade-and-spin 1.2s infinite ease-in-out;
+}
+
+#ball-1 {
+    transform: rotate(0deg) translateY(-65px);
+    animation-delay: 0s;
+}
+#ball-2 {
+    transform: rotate(30deg) translateY(-65px);
+    animation-delay: 0.1s;
+}
+#ball-3 {
+    transform: rotate(60deg) translateY(-65px);
+    animation-delay: 0.2s;
+}
+#ball-4 {
+    transform: rotate(90deg) translateY(-65px);
+    animation-delay: 0.3s;
+}
+#ball-5 {
+    transform: rotate(120deg) translateY(-65px);
+    animation-delay: 0.4s;
+}
+#ball-6 {
+    transform: rotate(150deg) translateY(-65px);
+    animation-delay: 0.5s;
+}
+#ball-7 {
+    transform: rotate(180deg) translateY(-65px);
+    animation-delay: 0.6s;
+}
+#ball-8 {
+    transform: rotate(210deg) translateY(-65px);
+    animation-delay: 0.7s;
+}
+#ball-9 {
+    transform: rotate(240deg) translateY(-65px);
+    animation-delay: 0.8s;
+}
+#ball-10 {
+    transform: rotate(270deg) translateY(-65px);
+    animation-delay: 0.9s;
+}
+#ball-11 {
+    transform: rotate(300deg) translateY(-65px);
+    animation-delay: 1.0s;
+}
+#ball-12 {
+    transform: rotate(330deg) translateY(-65px);
+    animation-delay: 1.1s;
+}
+
+

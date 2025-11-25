@@ -1,0 +1,20 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#parent{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border: 3px solid black;
+    display: grid;
+}
+
+.divs{
+    width: 200px;
+    height: 200px;
+    grid-template: 1f/1f;
+}

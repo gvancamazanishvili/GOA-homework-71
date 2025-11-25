@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #b46e00;
+}
+
+
+#sun{
+    width: 250px;
+    height: 250px;
+    background: #db8d09;
+    border-radius: 50%;
+    animation-name: light;
+    animation-duration: 5s;
+}
+
+
+@keyframes light{
+    0%{
+        box-shadow: none;
+    }
+    35%{
+        box-shadow: 5px 5px 10px 10px #ffcf23;
+    }
+    50%{
+        box-shadow: 5px 5px 10px 20px #ffcf23;
+    }
+    75%{
+        box-shadow: 25px 25px  5px 20px #ffcf23;
+    }
+    90%{
+        box-shadow: 5px 5px 10px 20px  #ffcf23;
+    }
+    95%{
+        box-shadow: 5px 5px 10px 10px #ffcf23;
+    }
+    100%{
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424deb;
+    min-height: 100vh;
+}
+
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+
+.white-balls{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+
+.blue-balls{
+    width: 100px;
+    height: 100px;
+    background-color: #424deb;
+    border-radius: 50%;
+    margin: 200px;
+    position: relative;
+    
+    animation: eyes 5s ease-in infinite;
+}
+
+@keyframes eyes{
+    0%{
+        transform: translateX(40px) translateY(70px);
+    }
+
+    25%{
+        transform: translateX(-40px) translateY(70px);
+    }
+
+    50%{
+        transform: translateX(40px) translateY(-70px);
+        
+    }
+
+    100%{
+        transform: translateX(40px) translateY(70px);
+    }
+}

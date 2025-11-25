@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+
+
+#red{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(255, 0, 0);
+    border-top: 20px solid rgba(0, 0, 0, 0);
+    animation-name: rotate;
+    animation-duration: 1s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
