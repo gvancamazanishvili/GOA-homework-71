@@ -14,7 +14,7 @@ body{
 
 #parent{
     display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-template: 1fr 1fr /  1fr 1fr;
     gap: 30px;
 }
 

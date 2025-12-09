@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d6e1ff;
+}
+
+#white-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    flex-direction: column;
+    padding-bottom: 2%;
+    width: 580px;
+    height: 580px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#purple-box{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    border-radius: 10px;
+    width: 305px;
+    height: 70px;
+    margin-top: 40px;
+    background-color:hsl(264, 100%, 61%) ;
+}
+
+#pfp{
+    width: 40px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+h6{
+    color: rgba(255, 255, 255, 0.385);
+    transform: translateY(20px) translateX(-130px);
+}
+
+#dog-photos{
+    transform: translateX(40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.left-divs{
+    background-color: hsl(270, 20%, 96%);
+    width: 170px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin: 20px;
+    color: hsl(289, 100%, 72%);
+    padding: 5%;
+}
+.dogs{
+    border-radius: 15px;
+    width: 50px;
+    margin: 5px;
+}
+
+#right-texts{
+    background-color: hsl(270, 20%, 96%);
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin: 20px;
+    color: rgb(192, 192, 192);
+    padding: 5%;
+    transform: translateX(60px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pay-option{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: hsl(289, 100%, 72%);
+}
+
+.time{
+    font-size: 15px;
+    color: white;
+
+}
+
+.money{
+    margin-left: 20px;
+}
+
+#reply{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid #cfcfcf;
+    border-radius: 30px;
+}
+
+#reply-text{
+    margin-left: 20px;
+    transform:translateY(-3px);
+    color: #8a8a8a;
+}
+
+#side-text{
+    display: flex;
+    justify-content: baseline;
+    align-items:center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#side-p{
+    font-size: 20px;
+    color: rgb(179, 179, 179) ;
+}
+h1{
+    color: black;
+    font-size:  30px;
+    font-weight: 900;
+}
