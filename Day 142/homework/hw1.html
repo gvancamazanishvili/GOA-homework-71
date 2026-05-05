@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hw1.css">
+</head>
+<body>
+
+    <form id="form">
+
+        <div id="left">
+            <h1>Bring Your Music Along</h1>
+            <h3>try Unlimited</h3>
+            <div id="price">
+                <span>$9.99</span> <p>/ Month</p>
+            </div>
+        </div>
+
+
+        <div id="right">
+            <form>
+                <h1 id="register" >Registration Form </h1>
+
+                <label for="fullName" class="Labels">Full Name: </label> <br><br>
+                <input type="text" name="fullName" id="fullName" class="inputs"> <br><br>
+                <p id="nameError" class="Error-mgs"></p>
+
+                <label for="Email" class="Labels">Your Email: </label> <br><br>
+                <input type="text" name="Email" id="Email" class="inputs" > <br><br>
+                <p id="emailError" class="Error-mgs"></p>
+
+                <label for="pass" class="Labels">Password: </label> <br><br>
+                <input type="password" name="pass" id="pass" class="inputs"> <br><br>
+                
+                <label for="repeatPass" class="Labels">Confirm Password: </label> <br><br>
+                <input type="password" name="repeatPass" id="repeatPass" class="inputs"><br><br>
+                <p id="passError" class="Error-mgs"></p>
+                
+                <div id="agreement">
+                    <input type="checkbox"> <span>By signing up, you agree to the </span><a href="#">Play Terms of Service</a>
+                    
+                </div>
+
+                <button type="submit" id="submutBtn">Register</button>
+            </form>
+        </div>
+    </form>
+
+    <script src="hw1.js"></script>
+</body>
+</html>
