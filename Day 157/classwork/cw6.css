@@ -1,0 +1,14 @@
+.buttons{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s linear;
+}
+
+
+.buttons:hover{
+    background-color: rgb(190, 190, 190);
+    color: white;
+}
+

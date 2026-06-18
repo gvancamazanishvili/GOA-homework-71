@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-weight: 600;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 40px;
+    background-color: #ffef9f5c;
+}
+
+#container{
+    background-color: #FFEF9F;
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+
+h1{
+    color: #690920 ;
+    margin-bottom: 30px;
+}
+
+.inputs{
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.inputs::placeholder{
+    color: #690920;
+}
+
+.inputs:focus{
+    border: 2px solid #690920;
+}
+
+
+#Add{
+    width: 500px;
+    height: 30px;
+    border: none;
+    background-color: #690920;
+    border-radius: 5px;
+    color: #FFEF9F;
+    transition: box-shadow 0.3s linear;
+}
+
+#Add:hover{
+    box-shadow: 2px 0px 10px #69091f85;
+}
+
+
+.parahgraphs{
+    width: 500px;
+    height: 40px;
+    background-color: #ffe600;
+    margin-top: 30px;
+    color: #690920;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 2px solid #3802023b;
+}
+
+
+.groupDiv{
+    width: 600px;
+    height: 350px;
+    background-color: #ffd50032;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 2px solid #69091f85;
+    transition: transform 0.3s linear, box-shadow 0.3s linear;
+}
+
+.groupDiv:hover{
+    transform: scale(1.005);
+    box-shadow: 2px 0px 10px #69091f85;
+}
+.buttons{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: #ffe100;
+    border-radius: 10px;
+    border: 2px solid #69091f85;
+    transition: box-shadow 0.3s ease-in, transform 0.3s linear;
+}
+
+.buttons:hover{
+    box-shadow: 2px 0px 5px #3802023b;
+    transform: scale(1.1);
+}
+

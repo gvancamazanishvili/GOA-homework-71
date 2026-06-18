@@ -1,0 +1,91 @@
+/* ვაკეთებდით To-do app-ს. */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFF5F8 ;
+}
+
+
+#Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFB6C1;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+}
+
+h1{
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    color: #FF4081;
+}
+
+#task{
+    width: 400px;
+    height: 40px;
+    border: none ;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+
+#add{
+    width: 50px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D6336C;
+    color: #FFF5F8;
+    font-weight: 800;
+}
+
+#Tasks{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    background-color: #ff408065;
+    width: 400px;
+    height: auto;
+    margin :20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF5F8;
+    font-size: 20px;
+}
+
+
+.buttons{
+    width: 70px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin: 10px;
+    background-color: #D6336C;
+    color: white;
+}
